@@ -1,0 +1,11 @@
+.programmer {
+    margin: 15px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.programmer img {
+    width: 100%;
+}
