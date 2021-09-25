@@ -9,9 +9,10 @@ const Programmers = props => {
             <img src={image} alt={name} />
             <h3>{name}</h3>
             <p>Website: {website}</p>
-            <p>experienceOfYears: {experienceOfYears}</p>
-            <p>monthlyEarning: {monthlyEarning}</p>
-            <p>runningCourse: {runningCourse}</p>
+            <p>Years of Experience: {experienceOfYears}</p>
+            <p>Monthly Earning: {monthlyEarning}</p>
+            <p>Running Course: {runningCourse}</p>
+            <button>Add To Cart</button>
         </div>
     );
 };
