@@ -1,0 +1,15 @@
+.single-programmer {
+    display: flex;
+    margin: 8px;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.single-programmer img {
+    width: 80px;
+    margin-right: 12px;
+}
+
+.single-programmer h3 {
+    color: #fff;
+}

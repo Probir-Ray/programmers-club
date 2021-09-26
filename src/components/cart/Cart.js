@@ -9,15 +9,16 @@ const Cart = (props) => {
     }
     return (
         <div>
-            <h2>Programmers Count:
-                {props.cart.length}
-            </h2>
+            <h2>Programmers Count: {props.cart.length}</h2>
             <h3>Total Amount: {totalAmount}</h3>
             {
                 props.cart.map(cartEl => {
                     return (
                         <div className="programmer-in-cart" key={cartEl.id}>
-                            <h2>{cartEl.name}</h2>
+                            <div className="single-programmer">
+                                <img src={cartEl.image} alt="" />
+                                <h3>{cartEl.name}</h3>
+                            </div>
                         </div>
                     )
                 })

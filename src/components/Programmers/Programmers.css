@@ -4,8 +4,18 @@
     text-align: center;
     background-color: dodgerblue;
     color: #fff;
+    padding-bottom: 20px;
 }
 
 .programmer img {
     width: 100%;
+}
+
+.programmer h3 {
+    color: #fff;
+}
+
+button {
+    border: 1px solid #efefef;
+    padding: 8px 12px;
 }
