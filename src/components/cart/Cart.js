@@ -8,21 +8,21 @@ const Cart = (props) => {
         totalAmount += programmer.monthlyEarning;
     }
     return (
-        <div>
+        <div className="cart-area">
             <h2>Programmers Count: {props.cart.length}</h2>
             <h3>Total Amount: {totalAmount}</h3>
+            <div className="programmer-in-cart">
             {
                 props.cart.map(cartEl => {
                     return (
-                        <div className="programmer-in-cart" key={cartEl.id}>
-                            <div className="single-programmer">
+                            <div className="single-programmer" key={cartEl.id}>
                                 <img src={cartEl.image} alt="" />
                                 <h3>{cartEl.name}</h3>
                             </div>
-                        </div>
                     )
                 })
             }
+            </div>
         </div>
     );
 };

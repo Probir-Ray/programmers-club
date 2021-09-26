@@ -1,13 +1,21 @@
+.cart-area {
+    text-align: center;
+}
+
 .single-programmer {
-    display: flex;
-    margin: 8px;
+    margin: 15px;
     background-color: dodgerblue;
     color: #fff;
+    text-align: center;
+    width: 70%;
+    padding: 8px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .single-programmer img {
-    width: 80px;
-    margin-right: 12px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .single-programmer h3 {

@@ -15,7 +15,14 @@
     color: #fff;
 }
 
+.programmer p {
+    line-height: 1.25;
+    margin: 5px;
+}
+
 button {
+    margin-top: 12px;
     border: 1px solid #efefef;
     padding: 8px 12px;
+    cursor: pointer;
 }
