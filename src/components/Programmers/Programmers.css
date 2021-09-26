@@ -20,6 +20,11 @@
     margin: 5px;
 }
 
+.programmer a {
+    color: #fff;
+    font-weight: 700;
+}
+
 button {
     margin-top: 12px;
     border: 1px solid #efefef;
