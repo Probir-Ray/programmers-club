@@ -10,7 +10,7 @@ const Header = () => {
             </div>
             <h2>Programmers Club</h2>
             <h3>Any fool can write code that a computer can understand. <br/>Good programmers write code that humans can understand.</h3>
-            <p>Total Amount: $ 8.9 Lac</p>
+            <p>Total Budget: $ 8.9 Lac</p>
             
             {/* Navigation */}
             <nav>
