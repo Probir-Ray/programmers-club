@@ -6,3 +6,7 @@
     - Find details of best developer/programmer.
     - Create a Programmers club with favorite programmer from programmer's list.
     - Be inspired to seen world top class teacher of development industry.
+
+ Markup : * Find details of best developer/programmer.
+          * Create a Programmers club with favorite programmer from programmer's list.
+          * Be inspired to seen world top class teacher of development industry.          

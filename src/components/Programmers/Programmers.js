@@ -12,9 +12,9 @@ const Programmers = props => {
             <p>Years of Experience: {experienceOfYears}</p>
             <p>Monthly Earning: $ {monthlyEarning}</p>
             <p>Running Course: {runningCourse}</p>
-            <p><a href={website} target="_blank">Learn More</a></p>
+            <p><a href={website}>Learn More</a></p>
             <button onClick={() => props.onClickHandel(props.programmer)}>
-            <FontAwesomeIcon icon={faShoppingCart} /> Add To Car
+            <FontAwesomeIcon icon={faShoppingCart} /> Add To Cart
             </button>
         </div>
     );
