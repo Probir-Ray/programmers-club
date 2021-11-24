@@ -4,7 +4,6 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header">
-            {/* Website logo */}
             <div className="logo">
                 <a href="/"><img src="https://i.imgur.com/aX2M57S.png" alt="" /></a>
             </div>
